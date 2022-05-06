@@ -1,0 +1,129 @@
+.login-window {
+    background-color: white;
+    border-radius: 5%;
+    margin: 5% auto;
+    width: 450px !important;
+    height: 500px !important;
+}
+.text-box {
+    align-items: center;
+}
+.sign-in-text {
+    font-size: x-large;
+    font-weight:bold;
+    padding:5%;
+    margin-bottom: 5%;
+    white-space: nowrap;
+}
+.intro-text {
+    color: gray;
+    font-size: small;
+}
+.forgot-password {
+    color: gray;
+}
+.reset-password {
+    margin-top: 2%;
+    margin-left: 5%;
+    color: #e59e00 !important;
+    text-decoration: underline;
+}
+.login-button {
+    margin-top: 5%;
+    border:0px;
+    border-radius: 5px;
+    color: white;
+    font-size: medium;
+    background-color:#e59e00 !important;
+    height: 50px !important;
+}
+.login-button:hover {
+    border: 3px solid gray;
+    box-shadow: 10px;
+}
+
+/* Pasted stylsheets */
+/* Enter your custom styles here */
+.barStyle1 {
+    margin-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+.barStyle2 {
+    margin-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+.barStyle3 {
+    margin-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+.barStyle4 {
+    margin-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+.educationField {
+    margin: auto;
+    width: 80%;
+    /*border: 3px solid green;*/
+    padding: 10px;
+    /*background-color: brown;*/
+}
+.bla{
+    /*background-color: brown;*/
+    width: 20%;
+}
+
+.idDownloadPdf{
+    visibility: hidden;
+}
+
+.pdfSpinner{
+    margin-bottom: 3.5em !important;
+    visibility: hidden;
+}
+
+.theLabel{
+   width: 100%;
+}
+
+.hiddenButton{
+    display: none !important;
+}
+
+.toolbarDivider{
+    border-bottom: 1px solid #D9D9D9 !important;
+    margin-bottom: 14px !important;
+}
+
+.banner{
+    width: 100%;
+    background-color: #ffffff;
+ }
+
+ .profilePicture{
+    width: 100%;
+    border: 1px solid #D9D9D9;
+ }
+
+.sapMMessageToastDanger {
+    color: #D8000C !important;
+    background-color: #ffffff !important;
+    border: 1px solid #D8000C !important;
+    border-left: 7px solid #D8000C !important;
+    text-align: left !important;
+}
+
+.sapMMessageToast {
+    width: 20rem !important;
+    max-width: 20rem !important;
+}
+
+/*adjustment of labels in "Personal Informations"*/
+.sapUiRespGridMedia-Std-Phone.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanS12)>.sapMLabel, .sapUiRespGridMedia-Std-Tablet.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanM12)>.sapMLabel, .sapUiRespGridMedia-Std-Desktop.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanL12)>.sapMLabel, .sapUiRespGridMedia-Std-LargeDesktop.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanXL12)>.sapMLabel {
+    text-align: end!important;
+    float: none;
+    position: relative;
+    margin-top: 1.3%;
+}
+
+
+
