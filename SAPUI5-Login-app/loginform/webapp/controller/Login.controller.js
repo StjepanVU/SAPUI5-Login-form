@@ -41,6 +41,8 @@ sap.ui.define([
                         }
                         */
                         // Redirect to CV Maker
+                        var view = sap.ui.view({id:"idPage", viewName:"MainView", type:sap.ui.core.mvc.ViewType});
+                        oShell.setContent(view); // or oPanel.setContent()      
                         
                     }
                     else {
